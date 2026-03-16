@@ -193,7 +193,8 @@ a:hover {
   font-weight: 400;
   color: var(--color-muted);
   margin-bottom: 2rem;
-  max-width: 55ch;
+  max-width: none;
+  white-space: nowrap;
 }
 
 .hero__statement {
