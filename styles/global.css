@@ -2,15 +2,16 @@
    Design Tokens
    ========================================================= */
 :root {
-  --color-bg:      #ffffff;
-  --color-text:    #1a1a1a;
-  --color-muted:   #6b7280;
-  --color-accent:  #2d6a4f;
-  --color-surface: #f7f7f5;
-  --color-border:  #e5e5e5;
-  --font-sans:     'Inter', system-ui, -apple-system, sans-serif;
-  --max-width:     720px;
-  --max-width-wide: 1100px;
+  --color-bg:        #f8f5f7; /* soft, warm background */
+  --color-text:      #1f2933; /* charcoal for readability */
+  --color-muted:     #6b7280; /* cool gray for subtle text */
+  --color-accent:    #d87093; /* muted rose accent */
+  --color-accent-alt:#7f4a88; /* supporting plum accent (if needed later) */
+  --color-surface:   #ffffff; /* clean surfaces/cards */
+  --color-border:    #e5e7eb; /* soft border */
+  --font-sans:       'Inter', system-ui, -apple-system, sans-serif;
+  --max-width:       720px;
+  --max-width-wide:  1100px;
 }
 
 /* =========================================================
@@ -235,8 +236,8 @@ a:hover {
 }
 
 .btn--primary:hover {
-  background: #235a41;
-  border-color: #235a41;
+  background: #cc6788;
+  border-color: #cc6788;
 }
 
 .btn--outline {
